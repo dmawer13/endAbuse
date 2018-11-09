@@ -1,0 +1,299 @@
+/*
+a:focus {
+    outline:1px solid #f068bb;
+    background-color: #ff0;
+    text-decoration:underline;
+}
+
+.sr-only {
+    position: absolute;
+    left: -1000px;
+    top:-1000px;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+
+    a.sr-only:active, 
+    a.sr-only:focus, 
+    a.sr-only:hover {
+        left: 0; 
+        top: 0;
+        width: auto; 
+        height: auto; 
+        overflow: visible; 
+    }
+*/
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+
+    }
+    
+    h1 {
+        font-weight: 600;
+    }
+    
+    h2 {
+        /*
+    font: arial;
+    font-size: 20px;
+    color: darkblue;
+*/
+    }
+    
+    p {
+        /*    font: arial;*/
+        font-size: 20px;
+    }
+    
+caption {
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+    
+  
+    th,
+    td {
+        text-align: left;
+        font-size: 20px;
+        
+    }
+
+.tableExpSm {
+    font-size: 14px;
+}
+
+.tableExpSm:hover {
+    background-color:white;
+}
+
+    tr:nth-child(even) {background-color: #fbfbfb;}
+
+.footerDiv {
+    padding-left:0px; 
+}
+
+.footerLineHeight {
+    line-height: 2;
+}
+
+.footerLink {
+    color:white;
+}
+
+.footerLogo {
+    font-size: 24px;
+}
+
+.footerLink:hover {
+    color:lightgrey;
+    
+}
+
+.subCatDiv {
+    background-color:#D5EBFF;
+    padding:15px;
+}
+/*
+    .subCatPills {
+        color:black;
+        background-color:#3482C9;
+    }
+*/
+/*
+    
+    .subCatPills:active {
+        background-color:black;
+    }
+
+    .subCatPills:hover {
+        background-color:black;
+}
+*/
+
+    .navPadding {
+        padding-left: 16%;
+        padding-right: 16%;
+/*        margin-top:-30px;*/
+    }
+
+    .nav>li>a {
+        color:black;
+        -webkit-transition-duration: 0.4s;
+        /* Safari */
+        transition-duration: 0.4s;
+    }
+
+    .nav-pills>li>a:focus, .nav-pills>li>a:hover {
+        background-color: #aac6e0;
+    }
+
+    .photoMargins {
+        padding-left: 16.6%;
+        padding-right: 16.6%;
+        max-width: 100%;
+    }
+    
+    .btnMainPg {
+        background-color: transparent;
+        color: black;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        /*    for hovr speed below*/
+        -webkit-transition-duration: 0.4s;
+        /* Safari */
+        transition-duration: 0.4s;
+    }
+
+    .btnMainPgWhite {
+        color: white;
+        border: 4px solid white;
+    }
+
+    .btnMainPgWhite:hover {
+        background-color: #2b6ca6;
+    }
+
+    .btnMainPgBlack, .btnMainPgLB {
+        color: black;
+        border: 4px solid black;
+    }
+    
+     .btnMainPgBlack:hover {
+        background-color: #d9d9d9;
+    }
+
+     .btnMainPgLB:hover {
+        background-color: #aac6e0;
+    }
+        
+    .mainPageBlurb {
+        padding-top: 1%;
+        padding-bottom: 2%;
+        padding-left: 16.6%;
+        padding-right: 16.6%;
+    }
+    
+    .linkLightText {
+        color: white;
+    }
+    
+    .linkLightText:hover {
+        color: lightgray;
+    }
+    
+    .tableGlyphicon {
+        text-align: center;
+        color: darkslategray;
+    }
+    /*glyphicons*/
+    
+    .gi-mainPg {
+        vertical-align: middle;
+        font-size: 5em;
+    }
+        
+    .gi-mainPg-white {
+    color:white;
+    }
+
+    .gi-mainPg-black {
+    color:black;
+    }
+
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    
+    .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+        /*    background-color: white;*/
+    }
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    
+    .row.content {
+        max-height: 600px;
+    }
+    /* Set gray background color and 100% height */
+    
+    .sidenav {
+        padding-top: 20px;
+        background-color: #f1f1f1;
+        height: 100%;
+    }
+    /* Set black background color, white text and some padding */
+    
+    footer {
+        background-color: #3482C9;
+        color: white;
+        padding: 15px;
+    }
+    /*I did this for the main photo margins trick to look good on small screens*/
+    
+    @media screen and (min-width: 992px) {
+        .photoMargins {
+            padding-top: 1%;
+            padding-bottom: 1%;
+        }
+}
+        
+        @media screen and (max-width:1200px) {
+            .photoMargins {
+                padding-left: 10%;
+                padding-right: 10%;
+            }
+            .mainPageBlurb {
+                padding-top: 1%;
+                padding-bottom: 2%;
+                padding-left: 10%;
+                padding-right: 10%;
+            }
+            .navPadding {
+                padding-left: 10%;
+                padding-right: 10%;
+            }
+            .btn {
+                width: 100px;
+                height: 100px;
+            }
+            .gi-mainPg {
+                font-size: 4em;
+            }
+        }
+        /* On small screens, set height to 'auto' for sidenav and grid */
+        @media screen and (max-width: 767px) {
+            
+            .footerDiv {
+                padding-bottom: 40px;
+            }
+            
+            .photoMargins {
+                padding-left: 0%;
+                padding-right: 0%;
+            }
+            .navPadding {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+            .row.content {
+                height: auto;
+            }
+            .hideContentSm {
+                display: none;
+            }
+            .lackMargins {
+                padding-left: 0%;
+                padding-right: 0%;
+                margin-top: 0%;
+            }
+            .mainPageBlurb {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }

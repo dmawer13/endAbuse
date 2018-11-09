@@ -1,0 +1,157 @@
+<div class="row"> 
+    
+<div class="col-sm-12 mainPageBlurb" style="background-color:white; padding-top:60px;">   
+<!--
+    <button class="" onclick="sortTable(0)">Sort by Type of Resource</button>
+    <button class="" onclick="sortTable(1)">Sort by Title</button>
+-->
+
+<!--JUST THE PILLS    -->
+<ul class="nav nav-pills nav-justified">
+<li class="active"><a data-toggle="pill" href="#choice1">Choice 1</a></li>
+<li><a data-toggle="pill" href="#choice2">Choice 2</a></li>
+</ul>
+
+<!--CONTENT OF THE PILLS    -->
+<div class="tab-content">
+    <div id="choice1" class="tab-pane fade in active">
+            <h3>List 1 Blurb</h3>
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#x">Audio and Video</a></li>
+                    <li><a data-toggle="tab" href="#y">Websites</a></li>
+                    <li><a data-toggle="tab" href="#z">Articles</a></li>
+                </ul>  
+    </div>         
+
+    <div id="choice2" class="tab-pane fade">
+            <h3>List 2 Blurb</h3> 
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#x1">Audio and Video</a></li>
+                    <li><a data-toggle="tab" href="#y1">Websites</a></li>
+                    <li><a data-toggle="tab" href="#z1">Articles</a></li>
+                </ul>
+    </div>
+</div>    
+    
+<div class="tab-content">
+    <div id="x" class="tab-pane fade in active">
+        <p1>Hi 1</p1>
+    </div>
+    
+    <div id="y" class="tab-pane">
+        <p1>Hi2</p1>
+    </div>
+    
+    <div id="z" class="tab-pane">
+        <p1>Hi3</p1>
+    </div>
+</div>
+    
+<div class="tab-content">
+    <div id="x1" class="tab-pane active">
+        <p1>Hi4</p1>
+    </div>
+    
+    <div id="y2" class="tab-pane">
+        <p1>Hi5</p1>
+    </div>
+    
+    <div id="z3" class="tab-pane">
+        <p1>Hi6</p1>
+    </div>
+</div>    
+     
+
+    
+    
+    
+    
+<ul class="nav nav-pills nav-justified">
+  <li class="active"><a data-toggle="pill" href="#physAbuse">Physical Abuse</a></li>
+  <li><a data-toggle="pill" href="#negExp">Neglect and Exploitation</a></li>
+  <li><a data-toggle="pill" href="#menu3">Verbal and Psychological Abuse</a></li>
+  <li><a data-toggle="pill" href="#menu4">Cyber/Online Abuse</a></li>
+  <li><a data-toggle="pill" href="#menu5">Sexual Abuse</a></li>
+    
+</ul>
+
+<div class="tab-content">
+    
+  <div id="physAbuse" class="tab-pane fade in active">
+    <h3>Physical Abuse</h3>
+    <p1>Click on a tab below to see a list of resources sorted by format (reword this).</p1>
+
+    <ul class="nav nav-tabs">
+  <li class="active"><a data-toggle="tab" href="#menuA">Audio and Video</a></li>
+  <li><a data-toggle="tab" href="#menuB">Websites</a></li>
+  <li><a data-toggle="tab" href="#menuC">Articles</a></li>
+  <li><a data-toggle="tab" href="#menuD">Blogs</a></li>
+  <li><a data-toggle="tab" href="#menuE">Fact Sheets</a></li>
+</ul>  
+  </div>
+  
+    <div class="tab-content">
+    <div id="menuA" class="tab-pane fade in">
+      <h3>AV</h3>
+    </div>
+    <div id="menuB" class="tab-pane fade">
+      <h3>Sites</h3>
+    </div>
+    <div id="menuC" class="tab-pane fade">
+      <h3>Articles</h3>
+    </div>
+    <div id="menuD" class="tab-pane fade">
+      <h3>Blogs</h3>
+    </div>
+    <div id="menuE" class="tab-pane fade">
+      <h3>Facts</h3>
+    </div>    
+    </div>    
+    
+ <div id="negExp" class="tab-pane fade">
+    <h3>Neglect and Exploitation</h3>
+    <p1>Click on a tab below to see a list of resources sorted by format (reword this).</p1>
+     
+    <ul class="nav nav-tabs">
+  <li class="active"><a data-toggle="tab" href="#menuF">Audio and Video</a></li>
+  <li><a data-toggle="tab" href="#menuG">Websites</a></li>
+  <li><a data-toggle="tab" href="#menuH">Articles</a></li>
+  <li><a data-toggle="tab" href="#menuI">Blogs</a></li>
+  <li><a data-toggle="tab" href="#menuJ">Fact Sheets</a></li>
+</ul>  
+</div>
+    
+    <div class="tab-content">
+    <div id="menuF" class="tab-pane fade in">
+      <h3>Av2</h3>
+    </div>
+    <div id="menuG" class="tab-pane fade">
+      <h3>Sites2</h3>
+    </div>
+    <div id="menuH" class="tab-pane fade">
+      <h3>Articles2</h3>
+    </div>
+    <div id="menuI" class="tab-pane fade">
+      <h3>Blogs3</h3>
+    </div>
+    <div id="menuJ" class="tab-pane fade">
+      <h3>Facts4</h3>
+    </div>    
+    </div>   
+    
+    
+    
+  <div id="menu3" class="tab-pane fade">
+    <h3>Menu 3</h3>
+    <p>Some content in menu 2.</p>
+  </div>
+  <div id="menu4" class="tab-pane fade">
+    <h3>Menu 4</h3>
+    <p>Some content in menu 2.</p>
+  </div>
+  <div id="menu5" class="tab-pane fade">
+    <h3>Menu 5</h3>
+    <p>Some content in menu 2.</p>
+  </div>
+      
+</div>    
